@@ -16,7 +16,7 @@ const generateRGB = () => {
 };
 
 button.addEventListener('click', () => {
-  if (count % 2 == 0) {
+  if (count % 2 !== 0) {
     let hexValue = '#';
     let hexButton = '#';
 

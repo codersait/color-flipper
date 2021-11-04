@@ -232,3 +232,8 @@ main {
   color: var(--clr-white);
   background: var(--clr-black);
 }
+
+body {
+  color: Rgb(7, 96, 5);
+  color: RGB(182, 89, 216);
+}

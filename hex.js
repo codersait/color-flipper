@@ -8,11 +8,11 @@ let count = 0;
 function getHexRandomNumber() {
   return Math.floor(Math.random() * hex.length);
 }
+function getRandomNumber() {
+  return Math.floor(Math.random() * 256);
+}
 const generateRGB = () => {
-  const r = Math.floor(Math.random() * 256);
-  const g = Math.floor(Math.random() * 256);
-  const b = Math.floor(Math.random() * 256);
-  return `rgb(${r},${g},${b})`;
+  return `rgb(${getRandomNumber()},${getRandomNumber()},${getRandomNumber()})`;
 };
 
 button.addEventListener('click', () => {
